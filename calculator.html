@@ -38,9 +38,9 @@
       <form>
         <h3>Adjustments for Waterborne Systems</h3>
         <div><label for="lines">Gallons in Lines:</label><br>
-          <input type="number" id="lines" name="lines" value="122"><br>
+          <input type="number" id="lines" name="lines" value="122" min="15" max="122"><br>
           <label for="tank">Gallons in Tank:</label><br>
-          <input type="number" id="tank" name="tank" value="70"><br><br>
+          <input type="number" id="tank" name="tank" value="70" min="20" max="90"><br><br>
           <button type="button" onclick="calculate()">Calculate</button>
           <button type="button" onclick="systemReset()">Reset</button>
         </div>

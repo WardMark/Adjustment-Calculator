@@ -2,5 +2,9 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: linear-gradient(to right, rgba(255,255,255, 0.7) 0 100%), url(Kevin-41.jpg);
     background-size: contain;
-    
+    color: black;
+}
+
+.container-fluid {
+    text-align: center;
 }
